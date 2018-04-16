@@ -1,4 +1,7 @@
 // The context menu script
+
+// Saving the player_command into a div is probably not the best way to do it
+// but it works
 function get_player()
 {
 	chrome.storage.sync.get({player_command: 'mpv --force-seekable=yes'},
@@ -33,4 +36,10 @@ if (!document.getElementById('player_command')){
 	get_player();
 }
 
-chrome.contextMenus.create({"title": "Play video via lyt","onclick":clickhandler,"contexts":["link"]});
+chrome.contextMenus.create(
+	{
+		"title": "Play video via lyt"
+		, "onclick": clickhandler
+		, "contexts": ["link"]
+	}
+);
