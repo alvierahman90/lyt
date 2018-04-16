@@ -20,7 +20,7 @@ function clickhandler(info)
 	url = "http://";
 	url += "127.0.0.1:5000";
 	url += "/play?";
-	url += "player_command=" + player;
+	url += "player_command=" + encodeURIComponent(player);
 	url += "&url=" + encodeURIComponent(info.linkUrl);
 
 	console.log(url)
