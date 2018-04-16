@@ -1,10 +1,14 @@
 {
 	"name": "lyt for chrome"
 	, "description": "The chrome extension for lyt"
-	, "version" : "0.0.1"
+	, "version" : "0.0.2"
 	, "manifest_version" : 2
-	, "permissions" : ["contextMenus"]
+	, "permissions" : ["contextMenus","storage"]
 	, "background" : {
 		"scripts": ["script.js"]
+	}
+	, "options_ui": {
+	       	"page": "options.html"
+		, "chrome_style": true
 	}
 }
