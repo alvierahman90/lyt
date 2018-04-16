@@ -20,5 +20,5 @@ You need the following:
 	> You can autostart this when you login to your desktop e.g:
 	> - Gnome: run `gnome-tweak-tool` then **startup applications**
 	> - KDE: systemsettings -> startup & shutdown -> autostart
-	> - i3: put `exec --no-startup-id lyt`
+	> - i3: put `exec --no-startup-id lyt` in your config file
 2. Right click on a video link and press "Play video via lyt"
