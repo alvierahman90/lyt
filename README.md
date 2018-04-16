@@ -22,3 +22,6 @@ You need the following:
 	> - KDE: systemsettings -> startup & shutdown -> autostart
 	> - i3: put `exec --no-startup-id lyt` in your config file
 2. Right click on a video link and press "Play video via lyt"
+
+## configuration
+You can change the player command in the extension options menu
