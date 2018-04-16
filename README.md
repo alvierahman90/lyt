@@ -16,6 +16,5 @@ You need the following:
 2. Run `server_install.sh` 
 
 ## usage
-1. Start the server
-	`repo_location/server/lyt.py`
+1. Start the server by executing `lyt`
 2. Right click on a video link and press "Play video via lyt"
